@@ -1,0 +1,16 @@
+{
+    "name": "kartikey/payment",
+    "description": "NA",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kartikey\\Payment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kartik Maandothiya"
+        }
+    ],
+    "require": {}
+}
