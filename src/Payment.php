@@ -8,7 +8,7 @@ use Kartikey\Sales\Repository\OrderPaymentRepository;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Log;
-use Stegback\Core\Models\PaymentGateway;
+use Kartikey\Core\Models\PaymentGateway;
 use Kartikey\Payment\Repository\PaymentRepository;
 
 class Payment

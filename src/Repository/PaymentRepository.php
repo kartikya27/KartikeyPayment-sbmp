@@ -3,7 +3,7 @@
 namespace Kartikey\Payment\Repository;
 
 use Stegback\Checkout\Interface\Cart;
-use Stegback\Core\Eloquent\Repository;
+use Kartikey\Core\Eloquent\Repository;
 
 class PaymentRepository extends Repository
 {
@@ -12,6 +12,6 @@ class PaymentRepository extends Repository
      */
     public function model(): string
     {
-        return 'Stegback\Core\Models\PaymentGateway';
+        return 'Kartikey\Core\Models\PaymentGateway';
     }
 }
